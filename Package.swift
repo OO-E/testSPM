@@ -25,7 +25,6 @@ let package = Package(
         .target(
             name: "ChildApp",
             path:"ChildApp",
-            dependencies: [],
             resources: [
               .process("Resources"),
               .process("Assets")
