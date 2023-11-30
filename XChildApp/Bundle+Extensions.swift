@@ -15,7 +15,7 @@ extension Bundle {
             Bundle.main.resourceURL,
             
             // Bundle should be present here when the package is linked into a framework.
-            Bundle(for: ViewController.self).resourceURL,
+            Bundle(for: ChildViewController.self).resourceURL,
         ]
         
         let bundleName = "ChildApp_ChildApp"
@@ -28,6 +28,6 @@ extension Bundle {
         }
         
         // Return whatever bundle this code is in as a last resort.
-        return Bundle(for: ViewController.self)
+        return Bundle(for: ChildViewController.self)
     }
 }

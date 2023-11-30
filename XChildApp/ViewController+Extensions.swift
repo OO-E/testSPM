@@ -37,7 +37,7 @@ extension UIViewController {
     static func createFromStoryboard<T: UIViewController>(named storyboardName: String?, type: T.Type) -> T {
         
         
-        let bundle: Bundle! = ViewController.getBundle()
+        let bundle: Bundle! = ChildViewController.getBundle()
     
         let vc = UIStoryboard(name: storyboardName ?? self.storyboardName, bundle: bundle).instantiateInitialViewController() as! T
         if let vc = vc as? UIViewController {
