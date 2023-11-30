@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EFD204362B18FB4C005E68D6 /* OpenViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EFD204352B18FB4C005E68D6 /* OpenViewController.storyboard */; };
 		EFDEE4822B18F0FE00679CFF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFDEE4812B18F0FE00679CFF /* AppDelegate.swift */; };
 		EFDEE4842B18F0FE00679CFF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFDEE4832B18F0FE00679CFF /* SceneDelegate.swift */; };
 		EFDEE4862B18F0FE00679CFF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFDEE4852B18F0FE00679CFF /* ViewController.swift */; };
@@ -21,7 +22,7 @@
 		EFDEE4BB2B18F24B00679CFF /* ChildViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFDEE4B72B18F24B00679CFF /* ChildViewController.swift */; };
 		EFDEE4BC2B18F24B00679CFF /* Calculated.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFDEE4B82B18F24B00679CFF /* Calculated.swift */; };
 		EFDEE4BD2B18F24B00679CFF /* OpenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFDEE4B92B18F24B00679CFF /* OpenViewController.swift */; };
-		EFDEE4C02B18F26F00679CFF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EFDEE4BF2B18F26F00679CFF /* Main.storyboard */; };
+		EFDEE4C02B18F26F00679CFF /* ChildViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EFDEE4BF2B18F26F00679CFF /* ChildViewController.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +43,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		EFD204352B18FB4C005E68D6 /* OpenViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = OpenViewController.storyboard; sourceTree = "<group>"; };
 		EFDEE47E2B18F0FE00679CFF /* ChildApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChildApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EFDEE4812B18F0FE00679CFF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EFDEE4832B18F0FE00679CFF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -60,7 +62,7 @@
 		EFDEE4B72B18F24B00679CFF /* ChildViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChildViewController.swift; sourceTree = "<group>"; };
 		EFDEE4B82B18F24B00679CFF /* Calculated.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Calculated.swift; sourceTree = "<group>"; };
 		EFDEE4B92B18F24B00679CFF /* OpenViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OpenViewController.swift; sourceTree = "<group>"; };
-		EFDEE4BF2B18F26F00679CFF /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		EFDEE4BF2B18F26F00679CFF /* ChildViewController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = ChildViewController.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -156,7 +158,8 @@
 		EFDEE4BE2B18F24E00679CFF /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				EFDEE4BF2B18F26F00679CFF /* Main.storyboard */,
+				EFDEE4BF2B18F26F00679CFF /* ChildViewController.storyboard */,
+				EFD204352B18FB4C005E68D6 /* OpenViewController.storyboard */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -267,8 +270,9 @@
 			files = (
 				EFDEE48E2B18F0FE00679CFF /* LaunchScreen.storyboard in Resources */,
 				EFDEE48B2B18F0FE00679CFF /* Assets.xcassets in Resources */,
+				EFD204362B18FB4C005E68D6 /* OpenViewController.storyboard in Resources */,
 				EFDEE4892B18F0FE00679CFF /* Main.storyboard in Resources */,
-				EFDEE4C02B18F26F00679CFF /* Main.storyboard in Resources */,
+				EFDEE4C02B18F26F00679CFF /* ChildViewController.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
